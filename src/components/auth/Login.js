@@ -73,12 +73,10 @@ const Login = (props) => {
     useEffect(() => {
         if (autenticado && documento !== '' && contraseña !== '') {
             props.history.push('/inicio');
-
         }
         else {
             limpiarUsuario();
         }
-
         // eslint-disable-next-line
     }, [mensaje, autenticado, props.history]);
 

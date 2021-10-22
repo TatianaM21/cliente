@@ -178,7 +178,7 @@ function App() {
                                         path="/expenses-fixed"
                                         component={FixedExpense}
                                       />
-                                      <RutaPrivada
+                                      <Route
                                         exact
                                         path="/"
                                         component={Login}
